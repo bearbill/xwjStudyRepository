@@ -1,87 +1,89 @@
-ÏÂÔØ°²×° git
-ÉèÖÃpath Â·¾¶
+ä¸‹è½½å®‰è£… git
+è®¾ç½®path è·¯å¾„
 
-ÉèÖÃ±¾»úµÄÓÃ»§ÃûºÍÓÊÏä
-
-
-git config --global user.name "xwj"
-git config --global user.email "630823727@qq.com"
-
-²é¿´µØ·½
-C:\Users\xiongwj\.gitconfig
-
-ÎªÁË±¾µØºÍÔ¶³Ì²Ö¿â½øĞĞÃâÃØÔ¿µÇÂ½  ¿ÉÒÔÅäÖÃssh
-
-ÅäÖÃssh£º
-a.ÏÖÔÚ±¾µØÅäÖÃ ·¢ËÍ¸øÔ¶³Ì
-ssh-keygen -t rsa -C 630823727@qq.com
-
-ÔÚÄ¿Â¼Àï¿ÉÒÔ²é¿´ C:\Users\xiongwj\.ssh
-
-b.·¢ËÍ¸øÔ¶³Ì
-´ò¿ªgithub  setting----SSH....---- NewSSHkey
-½«±¾µØµÄ C:\Users\xiongwj\.ssh\id_rsa.pub ÀïÃæÄÚÈİ·¢ËÍ¸øÔ¶³Ì²Ö¿â
-
-²âÊÔÁªÍ¨ĞÔ
-ssh -T git@github.com
-±¾µØÈç¹ûºÍÔ¶³ÌÁ´½Ó³É¹¦  ¿ÉÒÔÔÚ /.sshÄ¿Â¼ÖĞ·¢ÏÖ known_hostsÎÄ¼ş
-
-ÔÚ±¾µØĞÂ½¨gitÏîÄ¿ ·¢ËÍ¸øÔ¶³Ì
-
-ÏÂÔØ°²×° git
-ÉèÖÃpath Â·¾¶
-
-ÉèÖÃ±¾»úµÄÓÃ»§ÃûºÍÓÊÏä
+è®¾ç½®æœ¬æœºçš„ç”¨æˆ·åå’Œé‚®ç®±
 
 
 git config --global user.name "xwj"
 git config --global user.email "630823727@qq.com"
 
-²é¿´µØ·½
+æŸ¥çœ‹åœ°æ–¹
 C:\Users\xiongwj\.gitconfig
 
-ÎªÁË±¾µØºÍÔ¶³Ì²Ö¿â½øĞĞÃâÃØÔ¿µÇÂ½  ¿ÉÒÔÅäÖÃssh
+ä¸ºäº†æœ¬åœ°å’Œè¿œç¨‹ä»“åº“è¿›è¡Œå…ç§˜é’¥ç™»é™†  å¯ä»¥é…ç½®ssh
 
-ÅäÖÃssh£º
-a.ÏÖÔÚ±¾µØÅäÖÃ ·¢ËÍ¸øÔ¶³Ì
+é…ç½®sshï¼š
+a.ç°åœ¨æœ¬åœ°é…ç½® å‘é€ç»™è¿œç¨‹
 ssh-keygen -t rsa -C 630823727@qq.com
 
-ÔÚÄ¿Â¼Àï¿ÉÒÔ²é¿´ C:\Users\xiongwj\.ssh
+åœ¨ç›®å½•é‡Œå¯ä»¥æŸ¥çœ‹ C:\Users\xiongwj\.ssh
 
-b.·¢ËÍ¸øÔ¶³Ì
-´ò¿ªgithub  setting----SSH....---- NewSSHkey
-½«±¾µØµÄ C:\Users\xiongwj\.ssh\id_rsa.pub ÀïÃæÄÚÈİ·¢ËÍ¸øÔ¶³Ì²Ö¿â
+b.å‘é€ç»™è¿œç¨‹
+æ‰“å¼€github  setting----SSH....---- NewSSHkey
+å°†æœ¬åœ°çš„ C:\Users\xiongwj\.ssh\id_rsa.pub é‡Œé¢å†…å®¹å‘é€ç»™è¿œç¨‹ä»“åº“
 
-²âÊÔÁªÍ¨ĞÔ
+æµ‹è¯•è”é€šæ€§
 ssh -T git@github.com
-±¾µØÈç¹ûºÍÔ¶³ÌÁ´½Ó³É¹¦  ¿ÉÒÔÔÚ /.sshÄ¿Â¼ÖĞ·¢ÏÖ known_hostsÎÄ¼ş
+æœ¬åœ°å¦‚æœå’Œè¿œç¨‹é“¾æ¥æˆåŠŸ  å¯ä»¥åœ¨ /.sshç›®å½•ä¸­å‘ç° known_hostsæ–‡ä»¶
 
-ÔÚ±¾µØĞÂ½¨gitÏîÄ¿ ·¢ËÍ¸øÔ¶³Ì
+åœ¨æœ¬åœ°æ–°å»ºgité¡¹ç›® å‘é€ç»™è¿œç¨‹
 
-ÔÚÏîÄ¿ÀïÃæ ÓÒ¼ü git bash here
+ä¸‹è½½å®‰è£… git
+è®¾ç½®path è·¯å¾„
 
-ÊäÈë git init
+è®¾ç½®æœ¬æœºçš„ç”¨æˆ·åå’Œé‚®ç®±
 
-ÔÚÔ¶³Ì´´½¨Ò»¸ögitÏîÄ¿  ½«±¾µØÏîÄ¿ºÍÔ¶³ÌÏîÄ¿½øĞĞ¹ØÁª
-ÄÃµ½Ô¶³ÌÏîÄ¿µÄÎ¨Ò»±êÊ¾ £¨ssh»òÕßhttps£©
+
+git config --global user.name "xwj"
+git config --global user.email "630823727@qq.com"
+
+æŸ¥çœ‹åœ°æ–¹
+C:\Users\xiongwj\.gitconfig
+
+ä¸ºäº†æœ¬åœ°å’Œè¿œç¨‹ä»“åº“è¿›è¡Œå…ç§˜é’¥ç™»é™†  å¯ä»¥é…ç½®ssh
+
+é…ç½®sshï¼š
+a.ç°åœ¨æœ¬åœ°é…ç½® å‘é€ç»™è¿œç¨‹
+ssh-keygen -t rsa -C 630823727@qq.com
+
+åœ¨ç›®å½•é‡Œå¯ä»¥æŸ¥çœ‹ C:\Users\xiongwj\.ssh
+
+b.å‘é€ç»™è¿œç¨‹
+æ‰“å¼€github  setting----SSH....---- NewSSHkey
+å°†æœ¬åœ°çš„ C:\Users\xiongwj\.ssh\id_rsa.pub é‡Œé¢å†…å®¹å‘é€ç»™è¿œç¨‹ä»“åº“
+
+æµ‹è¯•è”é€šæ€§
+ssh -T git@github.com
+æœ¬åœ°å¦‚æœå’Œè¿œç¨‹é“¾æ¥æˆåŠŸ  å¯ä»¥åœ¨ /.sshç›®å½•ä¸­å‘ç° known_hostsæ–‡ä»¶
+
+åœ¨æœ¬åœ°æ–°å»ºgité¡¹ç›® å‘é€ç»™è¿œç¨‹
+
+åœ¨é¡¹ç›®é‡Œé¢ å³é”® git bash here
+
+è¾“å…¥ git init
+
+åœ¨è¿œç¨‹åˆ›å»ºä¸€ä¸ªgité¡¹ç›®  å°†æœ¬åœ°é¡¹ç›®å’Œè¿œç¨‹é¡¹ç›®è¿›è¡Œå…³è”
+æ‹¿åˆ°è¿œç¨‹é¡¹ç›®çš„å”¯ä¸€æ ‡ç¤º ï¼ˆsshæˆ–è€…httpsï¼‰
 git remote add origin git@github.com:bearbill/studyFile.git
 
-µÚÒ»´Î·¢²¼ÏîÄ¿£¨±¾µØ - Ô¶³Ì£©
-git add . ÎÄ¼ş µ½Ôİ´æÇø
-git commit -m "×¢ÊÍÄÚÈİ" Ôİ´æÇø µ½±¾µØ·ÖÖ§ 
+ç¬¬ä¸€æ¬¡å‘å¸ƒé¡¹ç›®ï¼ˆæœ¬åœ° - è¿œç¨‹ï¼‰
+git add . æ–‡ä»¶ åˆ°æš‚å­˜åŒº
+git commit -m "æ³¨é‡Šå†…å®¹" æš‚å­˜åŒº åˆ°æœ¬åœ°åˆ†æ”¯ 
 git push -u origin master
 
-µÚÒ»´ÎÏÂÔØÏîÄ¿ £¨Ô¶³Ì - ±¾µØ£©
-git clone Ô¶³Ì¹¤³ÌÎ¨Ò»±êÊ¶·û
+ç¬¬ä¸€æ¬¡ä¸‹è½½é¡¹ç›® ï¼ˆè¿œç¨‹ - æœ¬åœ°ï¼‰
+git clone è¿œç¨‹å·¥ç¨‹å”¯ä¸€æ ‡è¯†ç¬¦
 
-¸üĞÂ 
-
+æäº¤
 git add.
-git commit -m "Ìá½»µ½·ÖÖ§"
+git commit -m "æäº¤åˆ°åˆ†æ”¯"
 git push origin master
-Ìá½»
+
+æ›´æ–°
+git pull
 
 
+hell
 
 
 
