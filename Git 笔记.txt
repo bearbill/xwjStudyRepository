@@ -1,4 +1,4 @@
-下载安装 git
+﻿下载安装 git
 设置path 路径
 
 设置本机的用户名和邮箱
@@ -80,10 +80,57 @@ git commit -m "提交到分支"
 git push origin master
 
 更新
-git pull
+git pull   远程项目唯一标识符
 
 
-hell
+Egit
+
+第一次发布项目（右击 --team ）
+share project
+add to index 加入暂存区
+commit 提交本地分支
+remote-- pull 提交到远程项目
+
+
+
+第一次下载
+
+
+提交
+team add to index
+team -commit
+team -push
+注意 commit and push  可以单独push某一个文件
+        commit   不能单独push某一个文件
+
+更新
+team - remote -pull
+
+git冲突解决
+
+发现冲突  进入同步视图  右键  team--synchronized。。。
+解决  
+添加到本地暂存区  add to index
+提交到本地分支  commit
+更新服务端的分支内容到 本地分支 pull
+修改冲突
+add to idex
+commit  
+
+Git 多人合作开发项目
+
+github中 Settings
+增加合作者 collaborators   全名或者邮箱  发送邀请链接
+合作伙伴 打开链接 接收邀请
+clone项目
+
+
+
+
+
+
+
+
 
 
 
